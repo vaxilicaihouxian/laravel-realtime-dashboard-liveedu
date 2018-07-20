@@ -1,6 +1,6 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
+    "name": "vaxilcaihouxian/LaravelRealtimeDashboardLiveedu",
+    "description": "Laravel Realtime Dashboard of liveedu streaming",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
