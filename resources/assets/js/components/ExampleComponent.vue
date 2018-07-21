@@ -15,8 +15,14 @@
 </template>
 
 <script>
+    import io from 'socket.io-client';
     export default {
         mounted() {
+            var socket = io('http://127.0.0.1:8090');
+            socket.on('news', function (data) {
+                console.log(data);
+                socket.emit('my other event', { my: 'laravel dashboard' });
+            });
             console.log('Component mounted.')
         }
     }

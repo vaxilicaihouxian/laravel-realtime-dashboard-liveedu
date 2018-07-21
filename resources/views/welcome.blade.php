@@ -89,7 +89,11 @@
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
+                <div id="app">
+                    <example-component></example-component>
+                </div>
             </div>
         </div>
+        <script src="js/app.js"></script>
     </body>
 </html>
